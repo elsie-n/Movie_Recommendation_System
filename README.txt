@@ -125,14 +125,21 @@ Model-Based Collaborative filtering.
 
 Assume there are some users who have bought certain items, we can use a matrix with size num_users∗num_items to denote the past behaviour of users.Each cell in the matrix represents the associated opinion that a user holds, such a matrix is called a Utility Matrix.
 
-### *Conclusion*
+Conclusion:
+By leveraging both content-based and collaborative filtering techniques, we were able to develop a model that provided personalised movie recommendations to users based on their ratings on other movies and genres of preference.
+
+Using the collaborative filtering approach specifically user-based, we identified similar users based on their movie ratings and genres which enabled us to generate recommendations based on the preference of users with similar tastes.
+
+We utilized the surprise library which provided a framework for loading and preprocessing the data, splitting it into training and testing sets and implementing the algorithm. Our model was trained using evaluation metrics: RMSE to access its perfomance by measuring the accuracy, we ensured that our recommendations were reliable to our users.
+
+By offering the top 5 movie recommendations to the users, we were able to enhance the movie viewage and experience and allow them to discover new films that intrigued them.
+
+Recommendations:
+Use of a hybrid recommendation systems that combines content-based and collaborative filtering, hence more accurate recommendations.
+Provide a diverse selection of highly popular films that users may enjoy based on the ratings of other movies.
 
 
 
-### *Recommendation*
-Future work can focus on improving the accuracy and performance of the recommendation algorithms by using a hybrid recommendation system.
-
-Introduce user dislike movie list too.
 
 
 
